@@ -1,0 +1,81 @@
+/* Global Styles */
+.ipl-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #004ba0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Match Card Styling */
+  .match-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(to right, #004ba0, #007bff);
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+  }
+  
+  .match-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Match Header */
+  .match-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .team-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .vs-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Match Body */
+  .match-body {
+    padding: 15px;
+  }
+  
+  .result-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffeb3b;
+  }
+  
+  /* Year Selection Dropdown */
+  #yearSelect {
+    border: 2px solid #ff4b2b;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  #yearSelect:hover {
+    background-color: #ff4b2b;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .team-logo {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .ipl-title {
+      font-size: 24px;
+    }
+  }
+  

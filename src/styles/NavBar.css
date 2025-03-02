@@ -1,0 +1,13 @@
+/* Navbar.css */
+
+.navbar {
+    background: linear-gradient(to right, #1e1e1e, #292929);
+    padding: 10px;
+  }
+  
+  /* IPL Logo */
+  .ipl-logo {
+    height: 50px; 
+    width: auto;
+  }
+  
